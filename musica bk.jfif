@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nightnotes</title>
+
+  <link rel="stylesheet" href="assets/estilizar.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/estilizar.css">
+
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- TOPO -->
+    <header class="topbar">
+  <div class="logo">
+    <div class="logo-circle"></div>
+    <span>Nightnotes</span>
+  </div>
+  
+  <div class="topbar-right">
+    <div class="back-button">
+      <span>Voltar</span>
+      <span class="arrow-left">←</span>
+    </div>
+    <div class="heart">♡</div>
+  </div>
+</header>
+
+    <!-- HERO -->
+  <section class="recomendacao-semanal">
+
+  <div class="titulo-principal">
+    <h1>Vamos ouvir <br> algo novo hoje?...</h1>
+  </div>
+
+  <div class="subtitulo-semana">
+    <p>Recomendação <br> da semana:</p>
+  </div>
+  
+  <div class="carrossel-recomendacao">
+    
+    <span class="seta-carrossel">«</span>
+    
+    <div class="capas-carrossel">
+      <div class="capa recomendacao-1"></div>
+      <div class="capa recomendacao-2"></div>
+      <div class="capa recomendacao-3"></div>
+      <div class="capa recomendacao-4"></div>
+      <div class="capa recomendacao-5"></div>
+    </div>
+    
+    <span class="seta-carrossel">»</span>
+    
+  </div> </section>
+
+    <!-- CONTEÚDO -->
+    <main class="content">
+
+      <!-- ESQUERDA -->
+      <section class="left-side">
+
+        <div class="section">
+          <h2>ARTISTAS</h2>
+
+          <div class="cards">
+
+            <div class="card artista-1">
+              <button class="play-btn">▶</button>
+            </div>
+
+            <div class="card artista-2">
+              <button class="play-btn">▶</button>
+            </div>
+
+            <div class="card artista-3">
+              <button class="play-btn">▶</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>ALBÚNS</h2>
+
+          <div class="cards">
+
+            <div class="card album-1">
+              <button class="play-btn">▶</button>
+            </div>
+
+            <div class="card album-2">
+              <button class="play-btn">▶</button>
+            </div>
+
+            <div class="card album-3">
+              <button class="play-btn">▶</button>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- DIREITA -->
+      <aside class="sidebar">
+
+        <div class="sidebar-title">
+          Artistas mais ouvidos da região
+        </div>
+
+        <div class="ranking">
+
+          <div class="rankartista">
+            <div class="artista-info">
+              <div class="artista-foto veigh-foto"></div>
+              <span>Veigh</span>
+
+            </div>
+            <span>9.600.900.70</span>
+          </div>
+
+          <div class="rankartista">
+            <div class="artista-info">
+              <div class="artista-foto bk-foto"></div>
+              <span>BK</span>
+
+            </div>
+            <span>8.000.000.00</span>
+          </div>
+          <div class="ranking-chevron">
+            <span>∨</span>
+          </div>
+        </div>
+
+      </aside>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
